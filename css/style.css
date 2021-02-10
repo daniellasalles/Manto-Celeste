@@ -1,54 +1,61 @@
 body {
   font-family: Helvetica, Arial;
-  color: #1766a9;
+  color: #1e3d8f;
   text-align: center;
 }
 
 header {
-  background-color: #E4C023;
   margin: 0;
   padding: 0;
   text-align: left;
 }
 
-h1 {
-  color: #1e3d8f;
-  font-weight: 900;
-  line-height: 0.9;
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-  line-height: 1.5;
+h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
+  line-height: 1.5;
 }
 
-h3 {
-  color: #1e3d8f;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-/* footer */
 footer {
   margin: 60px 0 10px;
   color: #1e3d8f;
-}
-
-footer a {
-  padding: 10px;
-  color: #1e3d8f;
-}
-
-footer a:hover {
-  color: #1766a9;
 }
 
 .container-fluid {
   padding: 3% 10% 0 10%;
 }
 
+/* Header */
+.header-image img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Headings */
+.big-heading {
+  color: #1e3d8f;
+  font-weight: 900;
+  line-height: 0.9;
+  font-size: 3rem;
+  margin-top: 20%;
+}
+
+.second-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  color: #1e3d8f;
+  font-size: 1.5;
+  font-weight: 700;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  }
+
+/* Navigation */
 .nav-cruzeiro {
   background-color: #1e3d8f;
   color: #fff;
@@ -65,13 +72,8 @@ footer a:hover {
   text-transform: uppercase;
 }
 
-/* Header */
-
-.header-title {
-  margin-top: 20%;
-}
-
-.btn-cruzeiro {
+/* Buttons and Links */
+.btn-cruzeiro, .btn-outline-cruzeiro:hover {
   background-color: #1e3d8f;
   border-color: #1e3d8f;
   color: #ffffff;
@@ -88,34 +90,34 @@ footer a:hover {
   margin: 20px 10px 20px 0;
 }
 
-.btn-outline-cruzeiro:hover {
-  background-color: #1e3d8f;
-  border-color: #1e3d8f;
-  color: #fff;
+.icon, .contact-icon {
+  color: #1e3d8f;
 }
 
-.img-header {
-  width: 80%;
-  margin: 0 auto;
+.icon:hover, .contact-icon:hover {
+  color: #1766a9;
+}
+
+.icon {
+  margin: 5%;
+}
+
+.contact-icon {
+  padding: 10px;
+}
+
+/* Sections */
+.yellow-section {
+  background-color: #E4C023;
 }
 
 /* Features */
-
 #features {
   margin: 5% 15%;
 }
 
 .feature-item {
   padding: 5% 2%;
-}
-
-.icon {
-  color: #1e3d8f;
-  margin: 5%;
-}
-
-.icon:hover {
-  color: #1766a9;
 }
 
 /* Testimonials */
@@ -125,7 +127,7 @@ footer a:hover {
   text-align: center;
 }
 
-.img-testimonials {
+#testimonials img {
   border-radius: 100%;
   width: 20%;
   margin: 10px;
@@ -136,29 +138,14 @@ footer a:hover {
 }
 
 /* Pricing */
-
 #pricing {
   width: 80%;
   margin: 0 auto;
   padding: 5% 0;
-  
 }
 
 .pricing-column {
   padding-top: 3%;
-}
-
-.yellow {
-  background-color: #E4C023;
-  color: #fff;
-}
-
-.green {
-  background-color: #009A44;
-}
-
-.red {
-  background-color: #E10600;
 }
 
 .card-blue {
@@ -176,13 +163,11 @@ footer a:hover {
 
 /* Downloads */
 #downloads {
-  background-color: #E4C023;
   color: #1e3d8f;
   padding: 3% 30% 5%;
 }
 
-
-
+/* Responsive */
 @media (max-width: 1100px) {
   .header-title {
     margin-top: 15%;
@@ -207,6 +192,7 @@ footer a:hover {
     margin: 0 auto;
   }
 
+
   .icon {
     margin: 2%;
   }
@@ -229,10 +215,8 @@ footer a:hover {
   }
 }
 
-
-
 @media (max-width: 380px) {
-  .testimonial h2 {
+  .testimonial-text {
     font-size: 1.2rem;
     line-height: 1.8rem;
   }
