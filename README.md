@@ -1,4 +1,8 @@
-# Manto Celeste
+# Manto Celeste   
+
+Publicado em [Manto Celeste](https://mantoceleste.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d3ed132-eacc-463d-9575-99355b056aac/deploy-status)](https://app.netlify.com/sites/mantoceleste/deploys)
   <img src="https://img.shields.io/badge/feito%20por-Daniella%20Salles-success"> <br>
   
   ---
@@ -16,6 +20,8 @@
 <p>Site de divulgação para o aplicativo fictício "Manto Celeste", voltado para torcedores colecionadores de camisas de futebol.</p>
 
 <p>O objetivo do projeto era conhecer e aplicar conhecimentos básicos e intermediários do Bootstrap, assim como aprofundar alguns conhecimentos em HTML e CSS.</p>
+
+Acesse: [Manto Celeste](https://mantoceleste.netlify.app/)
 
 ## Screenshot ##
 
